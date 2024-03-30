@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: url(images/coeur.jpg);
+	background-size: 1366px;
+}
+
+header{
+	margin: 5px;
+	padding: 10px;
+	background: #FFADAD;
+	font-family: georgia, serif;
+	display: flex;
+	justify-content: center;
+	color: red;
+	border-radius: 10px;
+	border-style: outset;
+}
+
+h2{
+	font-size: 40px;
+}
+
+main{
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+img{
+	width: 210px;
+}
+
+nav{
+	
+	top: 0;
+	left: 0;
+	width: 10%;
+	padding: 2px 10px;
+	background: rgba(225, 225, 225, .1);
+	display: flex;
+	justify-content: space-between;
+	backdrop-filter: blur(10px);
+	color: white;
+	border-style: inset;
+}
+
+h4{
+	font-size: 20px;
+	font-family: dejavu sans mono, monospace;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: #000;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+.video-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        iframe {
+            max-width: 80%;
+        }
